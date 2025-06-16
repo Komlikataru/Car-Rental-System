@@ -1,0 +1,188 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("https://blog.travelcarma.com/wp-content/uploads/2017/06/car-rental-banner.jpg");
+  background-size: cover; 
+  height: 100px;
+  position: relative;
+  background-attachment: fixed;
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 15px 200px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+.nav,
+.nav .nav-links {
+  display: flex;
+  align-items: center;
+}
+
+.nav {
+  justify-content: space-between;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav .logo {
+  font-size: 22px;
+  font-weight: 500;
+  color: #fff;
+ 
+}
+
+.nav .nav-links {
+  column-gap: 20px;
+  list-style: none;
+}
+
+
+.main-section {
+  height: auto;
+  position: relative;
+  display: flex;
+  margin-top: 10%;
+  gap: 2px;
+  align-items: center;
+  flex-wrap: wrap;
+  transition: all 0.5s linear;
+}
+
+.block {
+  height: 500px;
+  margin: 2px;
+  display: flex;
+  flex: 1 1 300px;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-section {
+  text-align: center;
+  color: #fff;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+}
+
+.text-section h1 {
+  margin-top: 10px;
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: black;
+}
+
+.text-section h2 {
+  color: rgb(245, 220, 173);
+  padding-bottom: 10px;
+}
+
+.text-section p {
+  padding: 0 5px;
+  margin: 0 20px;
+}
+
+.text-section a {
+  color: black;
+  margin-top: 20px;
+  padding: 7px 20px;
+  font-size: 1.2em;
+  border-radius: 10px;
+  transition: 0.3s ease;
+}
+
+.text-section a:hover {
+
+  color: #fff;
+}
+
+.slot-buttons {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.slot-buttons a {
+  border: 1px solid black;
+  padding: 10px 30px;
+  border-radius: 10px;
+  margin: 5px;
+  transition: 0.3s linear;
+  background-color: orangered;
+}
+
+.slot-buttons a:hover {
+  background-color: orange;
+  border: none;
+  color: black;
+}
+
+.slot-buttons a:nth-child(2) {
+  background-color: orangered;
+  border: none;
+  color: black;
+}
+
+
+
+@media screen and (max-width: 1160px) {
+  .nav {
+    padding: 15px 100px;
+  }
+
+  .nav .search-box {
+    right: 150px;
+  }
+
+  .block {
+    width: 50%;
+  }
+
+
+}
+
+@media screen and (max-width: 950px) {
+  .nav {
+    padding: 15px 50px;
+  }
+
+  .nav .search-box {
+    right: 100px;
+    max-width: 400px;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+
+  .nav .navOpenBtn,
+  .nav .navCloseBtn {
+    display: block;
+  }
+
+  .nav {
+    padding: 15px 20px;
+  }
+
+}
+

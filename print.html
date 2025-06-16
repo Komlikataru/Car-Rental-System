@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Print Booking</title>
+    <link rel="stylesheet" href="print.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Rent-a-Ride</h1>
+        </header>
+        <h2>Booking Confirmation</h2>
+        <h3>Details</h3>
+        <div class="details">
+            <p><strong>Car Model:</strong> <span id="car-model"></span></p>
+            <p><strong>Pick-Up Date:</strong> <span id="pickup-date"></span></p>
+            <p><strong>Drop-Off Date:</strong> <span id="dropoff-date"></span></p>
+            <p><strong>Pick-Up Location:</strong> <span id="pickup-location"></span></p>
+            <p><strong>Drop-Off Location:</strong> <span id="dropoff-location"></span></p>
+            <p><strong>Full Name:</strong> <span id="customer-name"></span></p>
+            <p><strong>Email:</strong> <span id="customer-email"></span></p>
+            <p><strong>Phone Number:</strong> <span id="customer-phone"></span></p>
+            
+        </div>
+        <button id="btn" onclick="window.print()">Print</button>
+    </div>
+    <script src="print.js"></script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+
+body {
+    background-image: url("https://www.pngarts.com/files/2/White-Smoke-Download-Transparent-PNG-Image.png");
+    background-size: cover; 
+    background-position: center;
+    background-attachment: fixed; 
+    padding: 0 10px; 
+    margin: 0; 
+}
+
+.booking-form-section {
+    background-color: #f8f9fa; 
+    border: 1px solid #ddd; 
+    border-radius: 8px; 
+    padding: 30px; 
+    margin: 20px auto; 
+    max-width: 800px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 12px 24px rgba(0, 0, 0, 0.2);
+    text-align: center; 
+}
+
+
+.booking-form-section h2 {
+    margin-bottom: 20px;
+    font-size: 2rem; 
+    color: #333; 
+}
+
+
+.booking-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+}
+
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 15px; 
+}
+
+
+.form-group label {
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #333; 
+}
+
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    font-size: 16px; 
+    color: #333; 
+    background-color: #fff; 
+}
+
+
+.print-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.print-button:hover {
+    background-color: #0056b3;
+}
